@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/23/trunk/python2/sync_code
+END
+pair.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/23/trunk/python2/sync_code/pair.py
+END
+fox.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/23/trunk/python2/sync_code/fox.py
+END
+temp.ps
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/23/trunk/python2/sync_code/temp.ps
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/31/trunk/python2/sync_code/__init__.py
+END
+mutex.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/23/trunk/python2/sync_code/mutex.py
+END
+deadlock.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/23/trunk/python2/sync_code/deadlock.py
+END
+barrier1.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/23/trunk/python2/sync_code/barrier1.py
+END
+readwrite2.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/23/trunk/python2/sync_code/readwrite2.py
+END
+barrier2.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/23/trunk/python2/sync_code/barrier2.py
+END
+barrier3.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/23/trunk/python2/sync_code/barrier3.py
+END
+dance.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/23/trunk/python2/sync_code/dance.py
+END
+morris.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/morris.py
+END
+rebar1.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/rebar1.py
+END
+signal.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/signal.py
+END
+rebar2.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/rebar2.py
+END
+chart.fig
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/chart.fig
+END
+rebar3.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/rebar3.py
+END
+rebar4.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/rebar4.py
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/23/trunk/python2/sync_code/test.py
+END
+mydance.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/23/trunk/python2/sync_code/mydance.py
+END
+rebar5.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/rebar5.py
+END
+coke.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/23/trunk/python2/sync_code/coke.py
+END
+title.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/23/trunk/python2/sync_code/title.py
+END
+multiplex.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/23/trunk/python2/sync_code/multiplex.py
+END
+mutex2.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/mutex2.py
+END
+barrier.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/23/trunk/python2/sync_code/barrier.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/23/trunk/python2/sync_code/Makefile
+END
+readwrite.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/23/trunk/python2/sync_code/readwrite.py
+END
+rendez.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/23/trunk/python2/sync_code/rendez.py
+END
