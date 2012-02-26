@@ -38,11 +38,13 @@ def wordCount(fileName):
 	#count = 0
 	totalWordCount = 0
 	for line in fin:
-		cleanLine = line.strip()
-		if (cleanLine[:7] == "*** END"): break
-		lineList = cleanLine.split()
-		for word in lineList:
-			cleanWord = word.strip(whitespace).strip(punctuation).lower()
+	  line = line.replace('-', ' ')	  
+	  cleanLine = line.strip()
+	  if (cleanLine[:7] == "*** END"): break
+	  lineList = cleanLine.split()
+	  for word in lineList:
+			cleanWord = word.strip(whitespace + punctuation)
+			cleanWord = cleanWord.lower()
 			if cleanWord in words: 
 				words[cleanWord] += 1
 			else:
@@ -52,13 +54,12 @@ def wordCount(fileName):
 	fin.close()
 	print "Distinct Words:", totalWordCount
 	print "Total Unlisted words: ", str(len(unListedWords))
-	for word in unListedWords:
-		print word
-"""
+#	for word in unListedWords:
+#		print word
+
 wordCount("countOfMC.txt")
 wordCount("shakespereCW.txt")
 wordCount("davidC.txt")
 wordCount("londonJackCoW.txt")
 wordCount("kiplingJB.txt")
-"""
 wordCount("wodehouseJeves.txt")
