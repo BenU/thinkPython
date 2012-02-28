@@ -61,6 +61,8 @@ for k, v in marcHist.iteritems():
 prefixList = []
 for pf in marcHistList:
 	bisect.insort_left(prefixList, pf[0])
+lenPrefixList = len(prefixList)
+# print prefixList
 
 # now have: marcHistList, prefixList whose indices match up
 
@@ -69,13 +71,15 @@ def index(a, x):
     i = bisect.bisect_left(a, x)
     if i != len(a) and a[i] == x:
         return i
-    else: 
-			return -5
+    else:
+      print "*", x, "*"
+      return -1
 
 def randSuffix(prefix):
 	prList = prefix.split()
 	prLength = len(prList)
 	pr_index = index(prefixList, prefix)
+	if pr_index == -1: pr_index = random.randint(0,lenPrefixList)
 	numSuffixes = marcHistList[pr_index][1]
 	suffixDict = marcHistList[pr_index][2]
 	if numSuffixes == 1: # ie: there is only one possible suffix
@@ -90,20 +94,20 @@ def randSuffix(prefix):
 			if cumAppearances >= randIndex: 
 				suffix = suf
 				break
-	print suffix,
+	print suffix[0],
 	prList.pop(0) # remove first word in prefix
-	prList.append(suffix)
+	prList.append(suffix[0])
 	newPr = ""
-	print prList
-	for word in prList:
-		newPr += str(word)
-	
+#	print prList
+	newPr = " "+ prList[0] + " " + prList[1]
+#	print "\"" + newPr + "\""
 	return newPr
 
 
 prefix = (random.choice(marcHistList))[0]
-print "first prefix:", prefix
+print prefix,
 
-numbWords = 10
+numbWords = 40
 for i in range(numbWords):
-	prefix = randSuffix(prefix)
+#  print "***", prefix
+  prefix = randSuffix(prefix)
