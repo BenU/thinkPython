@@ -74,7 +74,9 @@ def process_file(filename, f, num=float('Inf')):
 
             f(actor, date, title, role)
             i += 1
-            if i > num: break
+            if i > num: 
+              fp.close()
+              break
         else:
             print 'BAD3', line
             continue
