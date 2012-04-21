@@ -6,7 +6,7 @@ class Time(object):
     return (self.hour * 60 *60) + (self.minute * 60) + self.second
     
 def print_time(time):
-  print "{0:2d}:{1:2d}:{2:2d}".format(time.hour, time.minute, time.second)  
+  return "{0:2d}:{1:2d}:{2:2d}".format(time.hour, time.minute, time.second)  
   
 if __name__ == "__main__":  
   time = Time()
@@ -14,5 +14,5 @@ if __name__ == "__main__":
   time.minute = 1
   time.second = 30
 
-  print_time(time)
+  print print_time(time)
   print "In seconds that's {0:d}".format(time.convert_to_seconds())
